@@ -81,7 +81,7 @@ export default function VerificationScreen() {
 
       <TouchableOpacity
         style={styles.continueButton}
-        onPress={() => router.push("/")}
+        onPress={() => router.push("/welcome")}
       >
         <Text style={styles.continueText}>Continuar</Text>
       </TouchableOpacity>
